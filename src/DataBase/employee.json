@@ -1,0 +1,72 @@
+{
+  "employees": [
+    {
+      "EmployeeID": 1,
+      "Name": "John Smith",
+      "Email": "john@example.com",
+      "Password": "pass123",
+      "Title": "Manager",
+      "Tasks": [
+        {
+          "TaskID": 103,
+          "TaskName": "Prepare quarterly report",
+          "DueDate": "2024-12-08",
+          "Status": "Completed"
+        }
+      ]
+    },
+    {
+      "EmployeeID": 2,
+      "Name": "Alice Johnson",
+      "Email": "alice@example.com",
+      "Password": "alice456",
+      "Title": "Software Engineer",
+      "Tasks": [
+        {
+          "TaskID": 102,
+          "TaskName": "Code review for module X",
+          "DueDate": "2024-12-10",
+          "Status": "Pending"
+        }
+      ]
+    },
+    {
+      "EmployeeID": 3,
+      "Name": "Bob Brown",
+      "Email": "bob@example.com",
+      "Password": "bob789",
+      "Title": "Designer",
+      "Tasks": [
+        {
+          "TaskID": 101,
+          "TaskName": "Design project dashboard",
+          "DueDate": "2024-12-15",
+          "Status": "In Progress"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "TaskID": 101,
+      "TaskName": "Design project dashboard",
+      "AssignedTo": 3,
+      "DueDate": "2024-12-15",
+      "Status": "In Progress"
+    },
+    {
+      "TaskID": 102,
+      "TaskName": "Code review for module X",
+      "AssignedTo": 2,
+      "DueDate": "2024-12-10",
+      "Status": "Pending"
+    },
+    {
+      "TaskID": 103,
+      "TaskName": "Prepare quarterly report",
+      "AssignedTo": 1,
+      "DueDate": "2024-12-08",
+      "Status": "Completed"
+    }
+  ]
+}
